@@ -1,1 +1,7 @@
 py -m venv venv
+pip install uvicorn
+pip install fastapi
+uvicorn main:app --reload
+pip install pytest
+pip install requests
+pip freeze > requirements.txt
