@@ -5,3 +5,6 @@ uvicorn main:app --reload
 pip install pytest
 pip install requests
 pip freeze > requirements.txt
+
+
+https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-github-upload-sample-revision.html
